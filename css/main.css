@@ -11,7 +11,7 @@ h1 {
   margin-top: 0rem;
 }
 
-.card {
+.link-card {
   display: inline-block;
   border: solid 4px #9a816d;
   border-radius: 4px;
@@ -23,7 +23,7 @@ h1 {
   line-height: 1.5rem;
 }
 
-.card .btn{
+.link-card .btn{
   background-color: #785439;
   color: white;
 }
@@ -43,10 +43,10 @@ h1 {
   font-weight: bold;
 }
 
-.card:hover {
+.link-card:hover {
   background-color: #c9bcb3;
 }
-.card:hover .btn {
+.link-card:hover .btn {
   background-color: #512200;
 }
 
