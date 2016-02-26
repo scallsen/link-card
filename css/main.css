@@ -1,19 +1,21 @@
 html {
   font-family: Georgia;
   background-color: #f0eee8;
+  box-sizing: border-box;
 }
 
-h1 {
+h2 {
   color: black;
   font-family: "Dosis", sans-serif;
   color: #512200;
   font-size: 1.5rem;
-  margin-top: 0rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .link-card {
   display: inline-block;
-  border: solid 4px #9a816d;
+  border: solid 3px #9a816d;
   border-radius: 4px;
   max-width: 17rem;
   text-decoration: none;
@@ -23,7 +25,7 @@ h1 {
   line-height: 1.5rem;
 }
 
-.link-card .btn{
+.link-card .btn {
   background-color: #785439;
   color: white;
 }
@@ -44,8 +46,9 @@ h1 {
 }
 
 .link-card:hover {
-  background-color: #c9bcb3;
+  background-color: #cabdb2;
 }
+
 .link-card:hover .btn {
   background-color: #512200;
 }
@@ -58,13 +61,16 @@ dl {
   font-size: 0.875rem;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
+  line-height: 1.2rem;
 }
+
 dt {
   float: left;
   width: 50%;
   padding: 0;
   margin: 0;
 }
+
 dd {
   float: left;
   width: 50%;
